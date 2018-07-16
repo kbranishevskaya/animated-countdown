@@ -22,9 +22,9 @@ function startTimer(id, deadline) {
 		let timer = updateTimer(deadline);
 
 		clock.innerHTML = '<span>' + timer.days + '</span>'
-						  + '<span>' + timer.hours + '</span>'
-						  + '<span>' + timer.minutes + '</span>'
-						  + '<span>' + timer.seconds + '</span>';
+				+ '<span>' + timer.hours + '</span>'
+				+ '<span>' + timer.minutes + '</span>'
+				+ '<span>' + timer.seconds + '</span>';
 
 		//animations
 		let spans = clock.getElementsByTagName('span');
